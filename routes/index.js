@@ -11,8 +11,7 @@ router.get('/', (req, res, next) => {
     USRV_Start: undefined,
     // Introduced
     USRV_WSS: true,
-    USRV_Preamble: '{"action":"join-network"}',
-    CDN: 'https://assets.turbo360.co/meme-test-td4gjz/static'
+    USRV_Preamble: '{"action":"join-network"}'
   })
 })
 
