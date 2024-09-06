@@ -20,6 +20,10 @@ router.get('/', (req, res, next) => {
     USRV_WSS: true,
     USRV_Preamble: '{"action":"join-network"}'
   })
+});
+
+router.get('/ursys', (req, res, next) => {
+  res.sendStatus(200);
 })
 
 module.exports = router
