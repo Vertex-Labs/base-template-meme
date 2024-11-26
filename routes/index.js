@@ -5,7 +5,7 @@ const router = Router()
 // Note: no protocol prefix
 const gateway = process.env.WSG_GATEWAY 
   ? process.env.WSG_GATEWAY
-  : 'bnkio46py0.execute-api.us-east-1.amazonaws.com/production/';
+  : 'q716d6lwhe.execute-api.us-east-1.amazonaws.com/production/';
 const projectSlug = process.env.TURBO_PROJECT_SLUG;
 
 router.get('/', (req, res, next) => {
